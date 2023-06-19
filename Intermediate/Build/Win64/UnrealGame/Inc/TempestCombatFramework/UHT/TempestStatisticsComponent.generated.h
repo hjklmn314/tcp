@@ -1,0 +1,116 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/TempestStatisticsComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UTempestBaseStatisticObject;
+struct FGameplayTag;
+#ifdef TEMPESTCOMBATFRAMEWORK_TempestStatisticsComponent_generated_h
+#error "TempestStatisticsComponent.generated.h already included, missing '#pragma once' in TempestStatisticsComponent.h"
+#endif
+#define TEMPESTCOMBATFRAMEWORK_TempestStatisticsComponent_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_RPC_WRAPPERS \
+	virtual void InitializeStatisticsComponent_Implementation(); \
+ \
+	DECLARE_FUNCTION(execGetStatisticOfClass); \
+	DECLARE_FUNCTION(execGetStatisticOfGameplayTag); \
+	DECLARE_FUNCTION(execConstructStatisticOfClass); \
+	DECLARE_FUNCTION(execInitializeStatisticsComponent);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetStatisticOfClass); \
+	DECLARE_FUNCTION(execGetStatisticOfGameplayTag); \
+	DECLARE_FUNCTION(execConstructStatisticOfClass); \
+	DECLARE_FUNCTION(execInitializeStatisticsComponent);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTempestStatisticsComponent(); \
+	friend struct Z_Construct_UClass_UTempestStatisticsComponent_Statics; \
+public: \
+	DECLARE_CLASS(UTempestStatisticsComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TempestCombatFramework"), NO_API) \
+	DECLARE_SERIALIZER(UTempestStatisticsComponent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_INCLASS \
+private: \
+	static void StaticRegisterNativesUTempestStatisticsComponent(); \
+	friend struct Z_Construct_UClass_UTempestStatisticsComponent_Statics; \
+public: \
+	DECLARE_CLASS(UTempestStatisticsComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TempestCombatFramework"), NO_API) \
+	DECLARE_SERIALIZER(UTempestStatisticsComponent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTempestStatisticsComponent(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTempestStatisticsComponent) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestStatisticsComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestStatisticsComponent); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestStatisticsComponent(UTempestStatisticsComponent&&); \
+	NO_API UTempestStatisticsComponent(const UTempestStatisticsComponent&); \
+public: \
+	NO_API virtual ~UTempestStatisticsComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestStatisticsComponent(UTempestStatisticsComponent&&); \
+	NO_API UTempestStatisticsComponent(const UTempestStatisticsComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestStatisticsComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestStatisticsComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTempestStatisticsComponent) \
+	NO_API virtual ~UTempestStatisticsComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_12_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TEMPESTCOMBATFRAMEWORK_API UClass* StaticClass<class UTempestStatisticsComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Components_TempestStatisticsComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

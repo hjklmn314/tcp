@@ -1,0 +1,101 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Objects/TempestBaseCameraProperty.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef TEMPESTCAMERASYSTEMS_TempestBaseCameraProperty_generated_h
+#error "TempestBaseCameraProperty.generated.h already included, missing '#pragma once' in TempestBaseCameraProperty.h"
+#endif
+#define TEMPESTCAMERASYSTEMS_TempestBaseCameraProperty_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_RPC_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTempestBaseCameraProperty(); \
+	friend struct Z_Construct_UClass_UTempestBaseCameraProperty_Statics; \
+public: \
+	DECLARE_CLASS(UTempestBaseCameraProperty, UTempestBaseObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TempestCameraSystems"), NO_API) \
+	DECLARE_SERIALIZER(UTempestBaseCameraProperty)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_INCLASS \
+private: \
+	static void StaticRegisterNativesUTempestBaseCameraProperty(); \
+	friend struct Z_Construct_UClass_UTempestBaseCameraProperty_Statics; \
+public: \
+	DECLARE_CLASS(UTempestBaseCameraProperty, UTempestBaseObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TempestCameraSystems"), NO_API) \
+	DECLARE_SERIALIZER(UTempestBaseCameraProperty)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTempestBaseCameraProperty(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTempestBaseCameraProperty) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestBaseCameraProperty); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestBaseCameraProperty); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestBaseCameraProperty(UTempestBaseCameraProperty&&); \
+	NO_API UTempestBaseCameraProperty(const UTempestBaseCameraProperty&); \
+public: \
+	NO_API virtual ~UTempestBaseCameraProperty();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTempestBaseCameraProperty(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestBaseCameraProperty(UTempestBaseCameraProperty&&); \
+	NO_API UTempestBaseCameraProperty(const UTempestBaseCameraProperty&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestBaseCameraProperty); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestBaseCameraProperty); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTempestBaseCameraProperty) \
+	NO_API virtual ~UTempestBaseCameraProperty();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_12_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TEMPESTCAMERASYSTEMS_API UClass* StaticClass<class UTempestBaseCameraProperty>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Objects_TempestBaseCameraProperty_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

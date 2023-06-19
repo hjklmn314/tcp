@@ -1,0 +1,115 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Objects/TempestBaseAbilityObject.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UAnimMontage;
+#ifdef TEMPESTCOMBATFRAMEWORK_TempestBaseAbilityObject_generated_h
+#error "TempestBaseAbilityObject.generated.h already included, missing '#pragma once' in TempestBaseAbilityObject.h"
+#endif
+#define TEMPESTCOMBATFRAMEWORK_TempestBaseAbilityObject_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetPerformingActor); \
+	DECLARE_FUNCTION(execSetActiveAbilityMontage); \
+	DECLARE_FUNCTION(execGetActiveAbilityMontage); \
+	DECLARE_FUNCTION(execGetPerformingActor);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetPerformingActor); \
+	DECLARE_FUNCTION(execSetActiveAbilityMontage); \
+	DECLARE_FUNCTION(execGetActiveAbilityMontage); \
+	DECLARE_FUNCTION(execGetPerformingActor);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTempestBaseAbilityObject(); \
+	friend struct Z_Construct_UClass_UTempestBaseAbilityObject_Statics; \
+public: \
+	DECLARE_CLASS(UTempestBaseAbilityObject, UTempestBaseObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TempestCombatFramework"), NO_API) \
+	DECLARE_SERIALIZER(UTempestBaseAbilityObject)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_INCLASS \
+private: \
+	static void StaticRegisterNativesUTempestBaseAbilityObject(); \
+	friend struct Z_Construct_UClass_UTempestBaseAbilityObject_Statics; \
+public: \
+	DECLARE_CLASS(UTempestBaseAbilityObject, UTempestBaseObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TempestCombatFramework"), NO_API) \
+	DECLARE_SERIALIZER(UTempestBaseAbilityObject)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTempestBaseAbilityObject(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTempestBaseAbilityObject) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestBaseAbilityObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestBaseAbilityObject); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestBaseAbilityObject(UTempestBaseAbilityObject&&); \
+	NO_API UTempestBaseAbilityObject(const UTempestBaseAbilityObject&); \
+public: \
+	NO_API virtual ~UTempestBaseAbilityObject();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestBaseAbilityObject(UTempestBaseAbilityObject&&); \
+	NO_API UTempestBaseAbilityObject(const UTempestBaseAbilityObject&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestBaseAbilityObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestBaseAbilityObject); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTempestBaseAbilityObject) \
+	NO_API virtual ~UTempestBaseAbilityObject();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_13_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TEMPESTCOMBATFRAMEWORK_API UClass* StaticClass<class UTempestBaseAbilityObject>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCombatFramework_Public_Objects_TempestBaseAbilityObject_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

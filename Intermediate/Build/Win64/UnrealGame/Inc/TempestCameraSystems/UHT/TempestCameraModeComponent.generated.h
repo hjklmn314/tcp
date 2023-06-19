@@ -1,0 +1,115 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/TempestCameraModeComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UCameraComponent;
+class USpringArmComponent;
+class UTempestBaseCameraMode;
+#ifdef TEMPESTCAMERASYSTEMS_TempestCameraModeComponent_generated_h
+#error "TempestCameraModeComponent.generated.h already included, missing '#pragma once' in TempestCameraModeComponent.h"
+#endif
+#define TEMPESTCAMERASYSTEMS_TempestCameraModeComponent_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_RPC_WRAPPERS \
+	virtual void InitializeCameraModeComponent_Implementation(UCameraComponent* NewCameraComponent, USpringArmComponent* NewSpringArmComponent); \
+ \
+	DECLARE_FUNCTION(execConstructCameraModeOfClass); \
+	DECLARE_FUNCTION(execSetCameraModeOfClass); \
+	DECLARE_FUNCTION(execInitializeCameraModeComponent);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execConstructCameraModeOfClass); \
+	DECLARE_FUNCTION(execSetCameraModeOfClass); \
+	DECLARE_FUNCTION(execInitializeCameraModeComponent);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_CALLBACK_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTempestCameraModeComponent(); \
+	friend struct Z_Construct_UClass_UTempestCameraModeComponent_Statics; \
+public: \
+	DECLARE_CLASS(UTempestCameraModeComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TempestCameraSystems"), NO_API) \
+	DECLARE_SERIALIZER(UTempestCameraModeComponent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_INCLASS \
+private: \
+	static void StaticRegisterNativesUTempestCameraModeComponent(); \
+	friend struct Z_Construct_UClass_UTempestCameraModeComponent_Statics; \
+public: \
+	DECLARE_CLASS(UTempestCameraModeComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TempestCameraSystems"), NO_API) \
+	DECLARE_SERIALIZER(UTempestCameraModeComponent)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTempestCameraModeComponent(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTempestCameraModeComponent) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestCameraModeComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestCameraModeComponent); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestCameraModeComponent(UTempestCameraModeComponent&&); \
+	NO_API UTempestCameraModeComponent(const UTempestCameraModeComponent&); \
+public: \
+	NO_API virtual ~UTempestCameraModeComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTempestCameraModeComponent(UTempestCameraModeComponent&&); \
+	NO_API UTempestCameraModeComponent(const UTempestCameraModeComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTempestCameraModeComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTempestCameraModeComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTempestCameraModeComponent) \
+	NO_API virtual ~UTempestCameraModeComponent();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_13_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_CALLBACK_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TEMPESTCAMERASYSTEMS_API UClass* StaticClass<class UTempestCameraModeComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TempestCombatFramework_Source_TempestCameraSystems_Public_Components_TempestCameraModeComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
